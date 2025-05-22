@@ -1,0 +1,55 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F4E3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌿 Oráculo Poético de Gemini 🌿"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#5C3A21"
+            android:fontFamily="serif"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/inputPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confesse ao oráculo, em versos ou aflições..."
+            android:background="#EFE7D1"
+            android:padding="12dp"
+            android:textColor="#3E2F1C"
+            android:fontFamily="serif"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entregar ao Céu"
+            android:textColor="#FFFFFF"
+            android:background="#8C4A2F"
+            android:padding="12dp"
+            android:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/respostaGemini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="As palavras do cosmos se manifestarão aqui..."
+            android:textColor="#3E2F1C"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:fontFamily="serif" />
+    </LinearLayout>
+</ScrollView>
